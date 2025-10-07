@@ -37,8 +37,8 @@ print_policy(pi_2, P, action_symbols=('<', 'v', '>', '^'), n_cols=4)
 
 ```
 ## POLICY ITERATION FUNCTION
-### Name: DHEENA DARSHINI KARTHIK DHEEPAN
-### Register Number: 212223240030
+### Name:MOULIDHAR
+### Register Number: 212223240042
 ```python
 def policy_iteration(P, gamma=1.0, theta=1e-10):
   random_actions = np.random.choice(tuple(P[0].keys()), len(P))
