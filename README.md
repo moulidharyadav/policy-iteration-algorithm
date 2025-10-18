@@ -31,8 +31,8 @@ def policy_improvement(V, P, gamma=1.0):
     return new_pi
 
 pi_2 = policy_improvement(V1, P)
-print("Name: Prasannalakshmi G")
-print("Register Number: 212222240075")
+print("Name: MOULIDHAR G")
+print("Register Number: 212223240042")
 print_policy(pi_2, P, action_symbols=('<', 'v', '>', '^'), n_cols=4)
 
 ```
@@ -54,8 +54,8 @@ def policy_iteration(P, gamma=1.0, theta=1e-10):
 
   return V, pi
 optimal_V, optimal_pi = policy_iteration(P)
-print("Name: Prasannalakshmi G")
-print("Register Number: 212222240075")
+print("Name: MOULIDHAR G")
+print("Register Number: 212223240042")
 print('Optimal policy and state-value function (PI):')
 print_policy(optimal_pi, P, action_symbols=('<', 'v', '>', '^'), n_cols=4)
 
